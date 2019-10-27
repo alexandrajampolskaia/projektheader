@@ -12,6 +12,7 @@ html{
   margin-top: 100px;
   padding: 16px;
   height: 1500px;
+  text-align: center
 }
 
 .nav {
@@ -22,7 +23,7 @@ html{
   border: solid 2px red;
   position: fixed;
   top: 0;
-  width: 96%;
+  width: 95%;
 }
 
 .nav a:hover{
@@ -86,7 +87,7 @@ label {
   }
   
   h1 {
-    width: 50%;
+    width: 54%;
   }
 }
 
