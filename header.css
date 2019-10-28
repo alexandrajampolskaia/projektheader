@@ -6,10 +6,11 @@ html, body{
 
 html{
   font-family: arial; 
+  background-color: #FFE5FD;
 }
 
 .main{
-  margin-top: 100px;
+  margin-top: 70px;
   padding: 16px;
   height: 1500px;
   text-align: center;
@@ -18,38 +19,37 @@ html{
 .nav {
   /*border-bottom: solid 1px black;*/
   text-align: right;
-  height: 70px;
+  height: 48px;
   line-height: 2em;/*mellanrum mellan upptill och mellan textraderna*/
-  border: solid 2px red;
   position: fixed;
   top: 0;
-  left: -2px;
-  width: 100%;
+  left: -4px;
+  width: 101%;
   z-index: 1;
+  background-color: #93006A; 
+  color: #FFE5FD;
 }
 
 .nav a:hover{
-  color: black;
+  color: #926C82;
 } 
 
 h1 {
   margin: 0 0 0 20px;
-  line-height: 2em;
+  line-height: 1.5em;
   width: 65px;
   float: left; 
-  border: solid 2px blue;
 }
 
 .menu {
   margin: 0 15px 0 0;
-  /*border: solid 2px green;*/
 }
 
 .menu a {
   text-decoration: none;
-  color: gray;
+  color: #FFE5FD;
   margin: 0 10px;
-  line-height: 70px;
+  line-height: 50px;
   clear: right; /*rensar allt på raden, får det att hoppa ner efter att vi gjort en float right i label*/
 }
 
@@ -57,7 +57,7 @@ h1 {
 label {
   margin: 0 40px 0 0;
   font-size: 26px;
-  line-height: 70px;
+  line-height: 50px;
   display: none; /*gömma hamburgaren*/
   width: 26px; /*området runt hamburgaren ska bara vara 26px så att inte hela ytan är klickbar*/
   float: right;
@@ -75,14 +75,14 @@ label {
   
   .menu {
     text-align: center;
-    width: 100%;
+    width: 101%;
     display: none;
-    background: white;
+    background: #93006A; 
   }
   
   .menu a {
     display: block;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px #926C82;
     
   }
   
@@ -91,7 +91,7 @@ label {
   }
   
   h1 {
-    width: 54%;
+    width: 53%;
   }
 }
 
